@@ -1,5 +1,6 @@
-/* src/App.css */
 .app {
+  max-width: 1024px;
+  margin: auto;
   text-align: center;
   font-family: Arial, sans-serif;
 }
