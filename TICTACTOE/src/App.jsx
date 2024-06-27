@@ -76,6 +76,7 @@ const App = () => {
   };
 
   return (
+    <div className='home'>
     <div className="app">
       <h1>Tic-Tac-Toe</h1>
       <Scoreboard scores={scores} />
@@ -83,6 +84,7 @@ const App = () => {
       <div>
         <button onClick={handleReset}>Reset</button>
       </div>
+    </div>
     </div>
   );
 };
